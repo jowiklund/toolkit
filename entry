@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const prog   = require('caporal');
+const example = require('./lib/example.js');
+
+prog
+  .version('1.0.0')
+  .command('example', 'Just an example command')
+  .argument('<exampleArg>', 'Just an example argument')
+	.action(example);

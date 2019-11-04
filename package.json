@@ -1,0 +1,17 @@
+{
+  "name": "thumbnail",
+  "version": "1.0.0",
+  "bin": {
+    "entry": "entry"
+  },
+  "description": "Generate thumbnails from videofiles in directory",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caporal": "^1.3.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "glob": "^7.1.5",
+    "inquirer": "^6.5.2"
+  }
+}
